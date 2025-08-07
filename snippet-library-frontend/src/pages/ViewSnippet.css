@@ -1,0 +1,149 @@
+/* Container */
+.view-snippet {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.view-snippet h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.view-snippet .language {
+  font-size: 1rem;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Vote Section */
+.vote-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.vote-section button {
+  background: #f0f0f0;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.vote-section button:hover {
+  background: #e0e0e0;
+}
+
+.vote-section span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Code Block */
+.code-block-wrapper {
+  position: relative;
+  background: #1e1e1e;
+  border-radius: 8px;
+  overflow-x: auto;
+  padding: 12px;
+  margin-bottom: 30px;
+}
+
+.code-block-wrapper pre {
+  margin: 0;
+}
+
+.code-block-wrapper code {
+  color: #d4d4d4;
+  font-family: monospace;
+  font-size: 0.95rem;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* Copy Button */
+.copy-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.copy-button:hover {
+  background: #0056b3;
+}
+
+/* Comments Section */
+.comments-section {
+  margin-top: 30px;
+}
+
+.comments-section h3 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+
+.add-comment {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.add-comment textarea {
+  width: 97%;
+  height: 60px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+.add-comment textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.add-comment button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.add-comment button:hover {
+  background: #218838;
+}
+
+/* Comments List */
+.comments-list {
+  margin-top: 15px;
+}
+
+.comment {
+  background: #f8f9fa;
+  padding: 10px 12px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
+
+.comment strong {
+  color: #333;
+}

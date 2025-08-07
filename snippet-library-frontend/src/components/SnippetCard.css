@@ -1,0 +1,35 @@
+.snippet-card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.snippet-card h3 {
+  margin: 0 0 8px;
+}
+
+.language {
+  font-weight: bold;
+  color: #007acc;
+  margin-bottom: 6px;
+}
+
+.description {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.view-link {
+  color: white;
+  background: #007acc;
+  padding: 6px 12px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+.view-link:hover {
+  background: #005fa3;
+}

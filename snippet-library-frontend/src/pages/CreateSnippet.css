@@ -1,0 +1,33 @@
+.create-snippet-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.snippet-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.snippet-form input,
+.snippet-form textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.snippet-form button {
+  background: #007acc;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.snippet-form button:hover {
+  background: #005fa3;
+}
