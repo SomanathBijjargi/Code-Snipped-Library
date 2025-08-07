@@ -72,7 +72,7 @@ To run this project locally, follow these instructions.
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/snippet-library.git
+git clone https://github.com/SomanathBijjargi/Code-Snipped-Library.git
 
 # Navigate to the backend folder
 cd snippet-library/backend
@@ -106,3 +106,5 @@ npm run dev
 Frontend: http://localhost:5173
 
 Backend: http://localhost:5000
+
+to see the videoDemo : https://www.linkedin.com/posts/somanath-bijjargi-0a47132b2_fullstackdeveloper-reactjs-nodejs-activity-7359127072008515585-vI_v?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEs2WbwB-OlL246vKyRCMF1y7hEmvyeow1c
