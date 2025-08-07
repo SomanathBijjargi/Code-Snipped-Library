@@ -103,6 +103,58 @@ VITE_API_URL=http://localhost:5000/api
 npm run dev
 ```
 
+### SQL TABLES :
+```
++---------------------------+
+| Tables_in_snippet_library |
++---------------------------+
+| comments                  |
+| snippets                  |
+| users                     |
+| votes                     |
++---------------------------+
+Schema for tables :
+for comments:
++------------+-----------+------+-----+-------------------+-------------------+
+| Field      | Type      | Null | Key | Default           | Extra             |
++------------+-----------+------+-----+-------------------+-------------------+
+| id         | int       | NO   | PRI | NULL              | auto_increment    |
+| content    | text      | NO   |     | NULL              |                   |
+| user_id    | int       | YES  | MUL | NULL              |                   |
+| snippet_id | int       | YES  | MUL | NULL              |                   |
+| created_at | timestamp | YES  |     | CURRENT_TIMESTAMP | DEFAULT_GENERATED |
++------------+-----------+------+-----+-------------------+-------------------+
+for snippets:
++------------+--------------+------+-----+-------------------+-------------------+
+| Field      | Type         | Null | Key | Default           | Extra             |
++------------+--------------+------+-----+-------------------+-------------------+
+| id         | int          | NO   | PRI | NULL              | auto_increment    |
+| title      | varchar(255) | YES  |     | NULL              |                   |
+| code       | text         | YES  |     | NULL              |                   |
+| language   | varchar(50)  | YES  |     | NULL              |                   |
+| user_id    | int          | YES  | MUL | NULL              |                   |
+| created_at | timestamp    | YES  |     | CURRENT_TIMESTAMP | DEFAULT_GENERATED |
++------------+--------------+------+-----+-------------------+-------------------+
+for votes:
++------------+-------------------+------+-----+---------+----------------+
+| Field      | Type              | Null | Key | Default | Extra          |
++------------+-------------------+------+-----+---------+----------------+
+| id         | int               | NO   | PRI | NULL    | auto_increment |
+| user_id    | int               | YES  | MUL | NULL    |                |
+| snippet_id | int               | YES  | MUL | NULL    |                |
+| vote_type  | enum('up','down') | YES  |     | NULL    |                |
++------------+-------------------+------+-----+---------+----------------+
+for users:
++------------+--------------+------+-----+-------------------+-------------------+
+| Field      | Type         | Null | Key | Default           | Extra             |
++------------+--------------+------+-----+-------------------+-------------------+
+| id         | int          | NO   | PRI | NULL              | auto_increment    |
+| username   | varchar(100) | NO   |     | NULL              |                   |
+| email      | varchar(100) | NO   | UNI | NULL              |                   |
+| password   | text         | NO   |     | NULL              |                   |
+| created_at | timestamp    | YES  |     | CURRENT_TIMESTAMP | DEFAULT_GENERATED |
++------------+--------------+------+-----+-------------------+-------------------+
+```
 Frontend: http://localhost:5173
 
 Backend: http://localhost:5000
