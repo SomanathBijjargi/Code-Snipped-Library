@@ -11,8 +11,7 @@ Built with the **MERN + MySQL** stack (MySQL, Express.js, React.js, Node.js), th
 
 >![alt text](<Screenshot 2025-08-07 133233.png>)
 ---
----
- ![alt text](<Screenshot 2025-08-07 133506.png>)
+>![alt text](<Screenshot 2025-08-07 133506.png>)
 
 ---
 
