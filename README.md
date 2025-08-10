@@ -155,8 +155,7 @@ for users:
 | created_at | timestamp    | YES  |     | CURRENT_TIMESTAMP | DEFAULT_GENERATED |
 +------------+--------------+------+-----+-------------------+-------------------+
 ```
-Frontend: http://localhost:5173
-
-Backend: http://localhost:5000
-
 to see the videoDemo : https://www.linkedin.com/posts/somanath-bijjargi-0a47132b2_fullstackdeveloper-reactjs-nodejs-activity-7359127072008515585-vI_v?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEs2WbwB-OlL246vKyRCMF1y7hEmvyeow1c
+
+### connect to me 
+my linkedin : https://www.linkedin.com/feed/update/urn:li:activity:7359127072008515585/
